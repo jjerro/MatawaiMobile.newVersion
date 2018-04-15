@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Matawai Mobile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">Cari</string>
+    <string name="category">Kategori</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_account">Akun</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_setting">Setting Toko</string>
+    <string name="cat_aksesories">Aksesories</string>
+    <string name="cat_atk">ATK</string>
+    <string name="cat_gadget">Gadget</string>
+    <string name="cat_handmade">Handmade</string>
+    <string name="cat_jasa">Jasa</string>
+    <string name="cat_vehicles">Kendaraan</string>
+    <string name="cat_culinary">Kuliner</string>
+    <string name="cat_clothes">Pakaian</string>
+    <string name="cat_property">Properti</string>
+    <string name="cat_smartphone">Smartphone</string>
+    <string name="cat_tenunan">Tenunan</string>
+    <string name="cat_ternak">Ternak</string>
+    <string name="icon">ICON</string>
+    <string name="close">Tutup</string>
+    <string name="search_hint">Ketik Nama Produk</string>
+    <string name="menu_refresh">Refresh</string>
+</resources>

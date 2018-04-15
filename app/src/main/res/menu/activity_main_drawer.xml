@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_account"
+            android:title="@string/nav_account" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_menu_cart"
+            android:title="@string/nav_cart" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/nav_setting" />
+    </group>
+    <item android:title="@string/category">
+        <group android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/cat_accessories"
+                android:icon="@drawable/ic_cat_acc"
+                android:title="@string/cat_aksesories" />
+            <item
+                android:id="@+id/cat_atk"
+                android:icon="@drawable/ic_cat_atk"
+                android:title="@string/cat_atk" />
+            <item
+                android:id="@+id/cat_gadget"
+                android:icon="@drawable/ic_cat_gadget"
+                android:title="@string/cat_gadget" />
+            <item
+                android:id="@+id/cat_handmade"
+                android:icon="@drawable/ic_cat_handmade"
+                android:title="@string/cat_handmade" />
+            <item
+                android:id="@+id/cat_jasa"
+                android:icon="@drawable/ic_cat_jasa"
+                android:title="@string/cat_jasa" />
+            <item
+                android:id="@+id/cat_vehicles"
+                android:icon="@drawable/ic_cat_car"
+                android:title="@string/cat_vehicles" />
+            <item
+                android:id="@+id/cat_culinary"
+                android:icon="@drawable/ic_cat_food"
+                android:title="@string/cat_culinary" />
+            <item
+                android:id="@+id/cat_clothes"
+                android:icon="@drawable/ic_cat_clothes"
+                android:title="@string/cat_clothes" />
+            <item
+                android:id="@+id/cat_property"
+                android:icon="@drawable/ic_cat_building"
+                android:title="@string/cat_property" />
+            <item
+                android:id="@+id/cat_smartphone"
+                android:icon="@drawable/ic_cat_smartphone"
+                android:title="@string/cat_smartphone" />
+            <item
+                android:id="@+id/cat_tenunan"
+                android:icon="@drawable/ic_cat_sewing"
+                android:title="@string/cat_tenunan" />
+            <item
+                android:id="@+id/cat_ternak"
+                android:icon="@drawable/ic_cat_pet"
+                android:title="@string/cat_ternak" />
+        </menu>
+        </group>
+    </item>
+    <item android:title="@string/close"
+        android:icon="@drawable/ic_close"
+        android:id="@+id/nav_close"/>
+</menu>
